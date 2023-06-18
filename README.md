@@ -2,10 +2,6 @@
 Python devs often face an issue with Notion: no file upload via Notion API. To overcome this, use Dropbox as a workaround. Upload files to Dropbox, share their links, manage them in Notion, and handle the entire workflow with Python.
 # Python上傳檔案到Dropbox同步到Notion
 
-Cover: image/pythonxnotionxdropbox.png
-Created: April 11, 2023 9:44 PM
-工具項目: Notion API, Python
-
 # 動機
 
 常用Python開發與Notion做對街，應該會常遇到一個問題是Notion目前無法透過Notion API做檔案上傳功能，因此這裡想透過Dropbox方式當作媒介，把檔案先上傳到Dropbox雲端裡，在做分享檔案連結，把連結上傳到Notion表格中做管理，因此就可以依然透過Python做所有作業流程
